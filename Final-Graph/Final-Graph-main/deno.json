@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --env --allow-all --unstable --watch main.ts"
+  },
+  "imports": {
+    "@apollo/server": "npm:@apollo/server@^4.10.4",
+    "@apollo/server/standalone": "npm:@apollo/server@^4.10.4/standalone",
+    "graphql": "npm:graphql@^16.9.0",
+    "mongoose": "npm:mongoose@8.4.4"
+  }
+}
